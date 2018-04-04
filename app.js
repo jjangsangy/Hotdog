@@ -129,13 +129,13 @@ function pushElement(c) {
 
 function showResults(imgElement, classes) {
   const predictionContainer = document.createElement('div');
-  predictionContainer.className = 'pred-container';
-
   const imgContainer = document.createElement('div');
+  const probsContainer = document.createElement('div');
+
+  predictionContainer.className = 'pred-container';
   imgContainer.appendChild(imgElement);
   predictionContainer.appendChild(imgContainer);
 
-  const probsContainer = document.createElement('div');
 
   for (let i = 0; i < classes.length; i++) {
     probsContainer.appendChild(pushElement(classes[i]));
