@@ -8,3 +8,18 @@ The mobilenet used in this example was ported from
 [this](https://storage.cloud.google.com/tfjs-models/savedmodel/mobilenet_v1_1.0_224/weights_manifest.json)
 
 [hotdog]: ./images/jinyang.jpeg
+
+# Install
+```sh
+$ npm install
+```
+
+# Watch
+```sh
+$ npm run watch
+```
+
+# Build
+```sh
+$ npm run build
+```
