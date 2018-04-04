@@ -1,7 +1,7 @@
 {
   "name": "hotdog-imagenet",
   "version": "0.1.0",
-  "description": "",
+  "description": "Hotdog Not Hotdog app running in the browser with tensorflow.js using a pretrained mobilenet model",
   "main": "app/app.js",
   "license": "Apache-2.0",
   "private": true,
