@@ -18,7 +18,7 @@ const TOPK_PREDICTIONS = 5;
 
 let mobilenet;
 const mobilenetDemo = async () => {
-  status('Loading model...');
+  status('Loading model, this may take a while...');
 
   mobilenet = await loadFrozenModel(MODEL_URL, WEIGHTS_URL);
 
@@ -136,7 +136,9 @@ function showResults(imgElement, classes) {
 
 
   for (let i = 0; i < classes.length; i++) {
-    probsContainer.appendChild(pushElement(classes[i]));
+    if (classes[i].probability > 0.001) {
+      probsContainer.appendChild(pushElement(classes[i]));
+    }
   }
   predictionContainer.appendChild(probsContainer);
 

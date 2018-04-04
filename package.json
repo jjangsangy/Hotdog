@@ -2,7 +2,7 @@
   "name": "hotdog-imagenet",
   "version": "0.1.0",
   "description": "Hotdog Not Hotdog app running in the browser with tensorflow.js using a pretrained mobilenet model",
-  "main": "app/app.js",
+  "main": "app.js",
   "license": "Apache-2.0",
   "private": true,
   "engines": {
@@ -15,7 +15,7 @@
   },
   "scripts": {
     "watch": "NODE_ENV=development parcel --no-hmr --open app/index.html ",
-    "build": "NODE_ENV=production parcel build ./app/index.html --public-url ./app"
+    "build": "NODE_ENV=production parcel build ./app/index.html --public-url ."
   },
   "devDependencies": {
     "babel-minify": "^0.3.0",
