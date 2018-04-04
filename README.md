@@ -14,12 +14,12 @@ In this example we utilize `MobileNet v1.1.0_224` which has a very high performa
 
 Here is a side by side comparison of some state of the art convolutional models.
 
-Model  | Million Parameters | Million MACs | Top-1 Accuracy| Top-5 Accuracy |
+Model  | Million Parameters | Top-1 Accuracy| Top-5 Accuracy |
 :----:|:------------:|:----------:|:-------:|:-------:|
-[MobileNet v1.1.0_224](https://arxiv.org/abs/1704.04861)|4|569|70.9|89.9|
-[AlexNet](https://arxiv.org/abs/1404.5997)|61|724|57.1|80.2|
-[VGG-16](https://arxiv.org/abs/1409.1556)|138|155,000|73.0|91.2|
-[Resnet-50](https://arxiv.org/abs/1512.03385)|25,500|3,900|75.99|92.98
+[MobileNet v1.1.0_224](https://arxiv.org/abs/1704.04861)|4|70.9|89.9|
+[AlexNet](https://arxiv.org/abs/1404.5997)|61|57.1|80.2|
+[VGG-16](https://arxiv.org/abs/1409.1556)|138|73.0|91.2|
+[Resnet-50](https://arxiv.org/abs/1512.03385)|25,500|75.99|92.98
 
 ![imagenet](https://github.com/tensorflow/models/raw/master/research/slim/nets/mobilenet_v1.png)
 
