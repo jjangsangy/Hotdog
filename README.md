@@ -1,6 +1,6 @@
 # Hotdog Not Hotdog
 
-Hotdog Not Hotdog app using Tensorflow.js using a pretrained mobilenet model.
+Hotdog Not Hotdog app running in the browser with [tensorflow.js](https://github.com/tensorflow/tfjs) using a pretrained mobilenet model.
 
 ![hotdog][hotdog]
 
