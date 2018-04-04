@@ -18,8 +18,8 @@ Model  | Million MACs | Million Parameters | Top-1 Accuracy| Top-5 Accuracy |
 :----:|:------------:|:----------:|:-------:|:-------:|
 [MobileNet v1.1.0_224](https://arxiv.org/abs/1704.04861)|569|4.24|70.9|89.9|
 [AlexNet](https://arxiv.org/abs/1404.5997)|724|61|57.1|80.2|
-[VGG-16](https://arxiv.org/abs/1409.1556)|155,000|138|73.0|91.2|
 [Resnet-50](https://arxiv.org/abs/1512.03385)|3,900|25,500|75.99|92.98
+[VGG-16](https://arxiv.org/abs/1409.1556)|155,000|138|73.0|91.2|
 
 ![imagenet](https://github.com/tensorflow/models/raw/master/research/slim/nets/mobilenet_v1.png)
 
