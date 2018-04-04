@@ -1,12 +1,10 @@
-# TensorFlow.js Example: Mobilenet
+# Hotdog Not Hotdog
 
-This example shows you how to load a pretrained mobilenet model.
+Hotdog Not Hotdog app using Tensorflow.js using a pretrained mobilenet model.
+
+![hotdog][hotdog]
 
 The mobilenet used in this example was ported from
-[this](https://github.com/fchollet/deep-learning-models/releases/download/v0.6/mobilenet_2_5_224_tf.h5)
-Keras pretrained mobilenet model and hosted online for your convenience.
+[this](https://storage.cloud.google.com/tfjs-models/savedmodel/mobilenet_v1_1.0_224/weights_manifest.json)
 
-If you want, you can port your own mobilenet model by using the Keras converter script which
-can be found [here](https://github.com/tensorflow/tfjs-layers/blob/master/scripts/keras_model_converter.py).
-
-[See this example live!](https://storage.googleapis.com/tfjs-examples/mobilenet/dist/index.html)
+[hotdog]: ./images/jinyang.jpeg
