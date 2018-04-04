@@ -115,7 +115,8 @@ function pushElement(c) {
 
   const pElement = document.createElement('p');
   classElement.appendChild(pElement);
-  if (c.className.toLower().startsWith('hotdog')) {
+  console.log(c)
+  if (c.className.toLowerCase().startsWith('hotdog')) {
     pElement.setAttribute('class', 'bg-danger');
   }
   pElement.innerText = c.className;

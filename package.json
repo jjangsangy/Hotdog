@@ -2,7 +2,7 @@
   "name": "hotdog-imagenet",
   "version": "0.1.0",
   "description": "",
-  "main": "app.js",
+  "main": "app/app.js",
   "license": "Apache-2.0",
   "private": true,
   "engines": {
@@ -14,8 +14,8 @@
     "npm": "^5.8.0"
   },
   "scripts": {
-    "watch": "NODE_ENV=development parcel --no-hmr --open index.html ",
-    "build": "NODE_ENV=production parcel build index.html --public-url ./"
+    "watch": "NODE_ENV=development parcel --no-hmr --open app/index.html ",
+    "build": "NODE_ENV=production parcel build ./app/index.html --public-url ./app"
   },
   "devDependencies": {
     "babel-minify": "^0.3.0",
