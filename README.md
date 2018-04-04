@@ -10,7 +10,7 @@ The mobilenet used in this example was ported from
 
 # Mobilenet
 
-In this example we utilize `MobileNet v1.1.0_224` which has a very high performance on imagenet relative to the model filesize. We care primarily of the size of the model weights as these will need to be downloaded client side to run inference on the browser. Once the model has been downloaded, it can be stored in cache to be reused in the future. In comparison the filesize of the weights of[VGG-16](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) which has comparable performance is `528MB` whereas `MobileNet v1.1.0_224` is only `32.5MB`.
+In this example we utilize `MobileNet v1.1.0_224` which has a very high performance on imagenet relative to the model filesize. We care primarily of the size of the model weights as these will need to be downloaded client side to run inference on the browser. Once the model has been downloaded, it can be stored in cache to be reused in the future. In comparison the filesize of the weights of [VGG-16](http://www.robots.ox.ac.uk/~vgg/research/very_deep/) which has comparable performance is `528MB` whereas `MobileNet v1.1.0_224` is only `32.5MB`.
 
 Here is a side by side comparison of some state of the art convolutional models.
 
