@@ -9,16 +9,20 @@ The mobilenet used in this example was ported from
 
 
 # Install
+Install node packages
 ```sh
 $ npm install
 ```
 
 # Watch
+Prototype app on `http://localhost:1234`
 ```sh
 $ npm run watch
 ```
 
 # Build
+This generates files in the dist directory
+
 ```sh
 $ npm run build
 ```
