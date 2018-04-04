@@ -22,9 +22,7 @@ const mobilenetDemo = async () => {
 
   mobilenet = await loadFrozenModel(MODEL_URL, WEIGHTS_URL);
 
-  // Warmup the model. This isn't necessary, but makes the first prediction
-  // faster. Call `dispose` to release the WebGL memory allocated for the return
-  // value of `predict`.
+  // Warmup the model. This isn't necessary, but makes the first prediction faster
   mobilenet.execute({
     input: tf.zeros([1, IMAGE_SIZE, IMAGE_SIZE, 3])
   }).dispose();
@@ -115,8 +113,7 @@ function pushElement(c) {
 
   const pElement = document.createElement('p');
   classElement.appendChild(pElement);
-  console.log(c)
-  if (c.className.toLowerCase().startsWith('hotdog')) {
+  if (c.className.startsWith('hotdog')) {
     pElement.setAttribute('class', 'bg-danger');
   }
   pElement.innerText = c.className;
